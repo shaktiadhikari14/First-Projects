@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+    padding: 10px;
+
+}
+
+
+
+a,li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 5px;
+    text-transform: uppercase;
+    color: black;
+   
+}
+
+li,a:hover{
+    color: #8392FD;
+}
+
+.navbar, ul, li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Start Slider Section */
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9FF;
+}
+.slide-left{
+    width: 39%;
+    margin-top: 72px;
+}
+.slide-left h6 {
+    font-size: 9px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    color: #222222;
+}
+
+.slide-left h1 {
+    font-size: 34px;
+    color: #222222;
+}
+
+.slide-left p {
+    font-size: 10px;
+    line-height: 24px;
+    color: #675a5a;
+}
+
+button {
+    width: 148px;
+    height: 33px;
+    background-color:#8392FD;
+    border: none;
+    color: white;
+    
+}
+
+button:hover{
+    box-shadow: 5px 5px 20px #8392FD;
+}
+
+.slide-right{
+    margin-top: 72px;
+}
+
+/* End Slider section */
+
+/* Start about me section */
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left{
+    margin-top: 80px;
+    margin-left: -25px;
+}
+
+.about-right{
+    width: 35%;
+   
+}
+.about-right h6 {
+    font-size: 9px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    color: #222222;
+}
+
+.about-right h1 {
+    font-size: 32px;
+    color: #222222;
+}
+
+.about-right p {
+    font-size: 10px;
+    line-height: 17px;
+    color: #675a5a;
+}
+
+
+
+/* End about me section */
